@@ -1,0 +1,25 @@
+==================================================
+FINAL MODEL EVALUATION RESULTS - EARLY FUSION
+==================================================
+Accuracy:  0.6829 (68.3%)
+F1-Score:  0.6828 (Macro Average)
+AUC-ROC:   0.7599
+
+--------------------------------------------------
+DETAILED CLASSIFICATION REPORT
+--------------------------------------------------
+                      precision    recall  f1-score   support
+
+Negative Emotion (0)       0.66      0.72      0.69      4500
+Positive Emotion (1)       0.71      0.65      0.68      4800
+
+            accuracy                           0.68      9300
+           macro avg       0.68      0.68      0.68      9300
+        weighted avg       0.69      0.68      0.68      9300
+
+--------------------------------------------------
+CONFUSION MATRIX
+--------------------------------------------------
+True Negative (TN):  3237  | False Positive (FP): 1263
+False Negative (FN): 1686  | True Positive (TP):  3114
+==================================================
