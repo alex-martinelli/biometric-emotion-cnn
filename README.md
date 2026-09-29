@@ -20,3 +20,8 @@ The system utilizes deep learning to interpret physiological data and classify e
 3. Ensure the required biometric dataset is placed in the `data/` directory.
 4. Run the training script: `python train.py`
 5. Evaluate the model performance and generate the feature analysis graphs: `python evaluate.py`
+## 📄 Research Paper & Documentation
+For a deep dive into the network architecture, hyperparameter tuning, and the mathematical reasoning behind the multimodal fusion strategies, please refer to the official project report:
+* [**Emotion Recognition from Biometric Signals (PDF)**](./docs/Emotion_Recognition_Research_Report.pdf)
+
+The paper includes comprehensive SHAP interpretability analyses, illustrating how the model evaluates localized ECG spikes versus diffused EDA state-validators to resolve high-arousal emotional ambiguities.
