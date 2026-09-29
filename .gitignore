@@ -1,0 +1,10 @@
+# Cache di Python
+__pycache__/
+*.pyc
+
+# Ambienti virtuali
+venv/
+env/
+
+# Dataset
+data/
