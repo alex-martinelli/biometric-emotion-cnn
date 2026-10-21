@@ -7,7 +7,7 @@
 Convolutional Neural Network (CNN) architecture designed to predict human emotions by processing and fusing multimodal biometric signals.
 
 ## 📌 Project Overview
-The system utilizes deep learning to interpret physiological data and classify emotional states[cite: 6]. By leveraging PyTorch, the project explores different data integration strategies to maximize predictive accuracy from heterogeneous sensor inputs.
+The system utilizes deep learning to interpret physiological data and classify emotional states. By leveraging PyTorch, the project explores different data integration strategies to maximize predictive accuracy from heterogeneous sensor inputs.
 
 ## ⚙️ Key Features & Architecture
 * **Multimodal Data Processing:** Designed and trained a CNN to predict human emotions based on complex biometric signals, including ECG and sweat levels.
@@ -16,10 +16,9 @@ The system utilizes deep learning to interpret physiological data and classify e
 
 ## 🚀 How to Run
 1. Clone the repository: `git clone https://github.com/alex-martinelli/biometric-emotion-cnn.git`
-2. Create a virtual environment and install the dependencies: `pip install -r requirements.txt`
-3. Ensure the required biometric dataset is placed in the `data/` directory.
-4. Run the training script: `python train.py`
-5. Evaluate the model performance and generate the feature analysis graphs: `python evaluate.py`
+2. Ensure the required biometric dataset is placed in the `data/` directory.
+3. Run the training script: `python run_tototal.py`
+4. Evaluate the model performance and generate the feature analysis graphs: `python evaluate.py`
 ## 📄 Research Paper & Documentation
 For a deep dive into the network architecture, hyperparameter tuning, and the mathematical reasoning behind the multimodal fusion strategies, please refer to the official project report:
 * [**Emotion Recognition from Biometric Signals (PDF)**](./docs/Emotion_Recognition_Research_Report.pdf)
