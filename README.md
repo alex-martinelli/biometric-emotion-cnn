@@ -21,6 +21,6 @@ The system utilizes deep learning to interpret physiological data and classify e
 4. Evaluate the model performance and generate the feature analysis graphs: `python evaluate.py`
 ## 📄 Research Paper & Documentation
 For a deep dive into the network architecture, hyperparameter tuning, and the mathematical reasoning behind the multimodal fusion strategies, please refer to the official project report:
-* [**Emotion Recognition from Biometric Signals (PDF)**](./docs/Emotion_Recognition_Research_Report.pdf)
+* [**Emotion Recognition from Biometric Signals (PDF)**](./docs/Report_ML.pdf)
 
 The paper includes comprehensive SHAP interpretability analyses, illustrating how the model evaluates localized ECG spikes versus diffused EDA state-validators to resolve high-arousal emotional ambiguities.
